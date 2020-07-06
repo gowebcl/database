@@ -1,197 +1,213 @@
-/* environmentTables */
+/* * * * * * * */
+/* DEFINITIONS */
+/* * * * * * * */
 
-#tables/environment/core/set_schema.sql
-tables/environment/core/sys_default.sql
+/* TABLES */
 
-/* environmentFunctions */
+/* environment */
 
-functions/environment/core/environment_core_get_current_month.sql
-functions/environment/core/environment_core_get_current_timestamp.sql
-functions/environment/core/environment_core_get_current_year.sql
-functions/environment/core/environment_core_get_date_dd.sql
-functions/environment/core/environment_core_get_date_mm.sql
-functions/environment/core/environment_core_get_date_yyyy.sql
-functions/environment/core/environment_core_get_date_yyyymm.sql
-functions/environment/core/environment_core_get_date_yyyymmdd.sql
-functions/environment/core/environment_core_get_dynamic_value.sql
-functions/environment/core/environment_core_get_function_result.sql
-functions/environment/core/environment_core_get_function_validation.sql
-functions/environment/core/environment_core_get_json_boolean.sql
-functions/environment/core/environment_core_get_json_json.sql
-functions/environment/core/environment_core_get_json_numeric.sql
-functions/environment/core/environment_core_get_json_text.sql
-functions/environment/core/environment_core_get_json_timestamp.sql
-functions/environment/core/environment_core_get_json_uuid.sql
-functions/environment/core/environment_core_get_last_sequence.sql
-functions/environment/core/environment_core_get_next_sequence.sql
-functions/environment/core/environment_core_get_previous_month.sql
-functions/environment/core/environment_core_get_previous_year.sql
-functions/environment/core/environment_core_get_random_numeric.sql
-functions/environment/core/environment_core_get_random_text.sql
-functions/environment/core/environment_core_get_result_failed.sql
-functions/environment/core/environment_core_get_result_success.sql
-functions/environment/core/environment_core_set_json_boolean.sql
-functions/environment/core/environment_core_set_json_empty.sql
-functions/environment/core/environment_core_set_json_json.sql
-functions/environment/core/environment_core_set_json_numeric.sql
-functions/environment/core/environment_core_set_json_text.sql
-functions/environment/core/environment_core_set_json_timestamp.sql
-functions/environment/core/environment_core_set_json_uuid.sql
-functions/environment/generic/environment_generic_exe_delete.sql
-functions/environment/generic/environment_generic_exe_insert.sql
-functions/environment/generic/environment_generic_exe_select.sql
-functions/environment/generic/environment_generic_exe_update.sql
-functions/environment/generic/environment_generic_get_status.sql
+#definitions/tables/environment/core/set_schema.sql
+definitions/tables/environment/core/sys_default.sql
 
-/* systemTables */
+/* system */
 
-tables/system/exceptions/log_exceptions.sql
-tables/system/exceptions/log_traces.sql
-tables/system/snapshots/log_snapshots.sql
-tables/system/snapshots/log_tables.sql
-tables/system/snapshots/log_columns.sql
-tables/system/snapshots/log_usages.sql
-tables/system/snapshots/log_constraints.sql
-tables/system/snapshots/log_indexes.sql
-tables/system/snapshots/log_functions.sql
-tables/system/snapshots/log_parameters.sql
-tables/system/snapshots/log_triggers.sql
-tables/system/snapshots/log_sequences.sql
-#tables/system/access/profiles.sql
-tables/system/service/srv_persons.sql
-tables/system/access/dat_users.sql
+definitions/tables/system/exceptions/log_exceptions.sql
+definitions/tables/system/exceptions/log_traces.sql
+definitions/tables/system/snapshots/log_snapshots.sql
+definitions/tables/system/snapshots/log_tables.sql
+definitions/tables/system/snapshots/log_columns.sql
+definitions/tables/system/snapshots/log_usages.sql
+definitions/tables/system/snapshots/log_constraints.sql
+definitions/tables/system/snapshots/log_indexes.sql
+definitions/tables/system/snapshots/log_functions.sql
+definitions/tables/system/snapshots/log_parameters.sql
+definitions/tables/system/snapshots/log_triggers.sql
+definitions/tables/system/snapshots/log_sequences.sql
+definitions/#tables/system/access/profiles.sql
+definitions/tables/system/service/srv_persons.sql
+definitions/tables/system/access/dat_users.sql
 
-/* applicationTables */
+/* application */
 
-tables/application/service/srv_profiles.sql
-tables/application/service/srv_positions.sql
-tables/application/service/srv_days.sql
-tables/application/service/srv_months.sql
-tables/application/service/srv_regions.sql
-tables/application/service/srv_provinces.sql
-tables/application/service/srv_communes.sql
-tables/application/service/srv_keys.sql
-tables/application/service/srv_condominiums.sql
-tables/application/service/srv_parameters.sql
-tables/application/service/srv_properties.sql
-tables/application/service/srv_categories.sql
-tables/application/service/srv_subcategories.sql
-tables/application/service/srv_accounts.sql
-tables/application/service/srv_dollar_values.sql
-tables/application/service/srv_euro_values.sql
-tables/application/service/srv_foment_unit_values.sql
-tables/application/service/srv_monthly_tax_unit_values.sql
-tables/application/organization/dat_communities.sql
-tables/application/organization/dat_parameters.sql
-tables/application/organization/dat_ownerships.sql
-tables/application/organization/dat_units.sql
-tables/application/configuration/dat_categories.sql
-tables/application/configuration/dat_subcategories.sql
-tables/application/configuration/dat_accounts.sql
-tables/application/transactions/dat_transactions.sql
-#tables/application/organization/units.sql
+definitions/tables/application/service/srv_profiles.sql
+definitions/tables/application/service/srv_positions.sql
+definitions/tables/application/service/srv_days.sql
+definitions/tables/application/service/srv_months.sql
+definitions/tables/application/service/srv_regions.sql
+definitions/tables/application/service/srv_provinces.sql
+definitions/tables/application/service/srv_communes.sql
+definitions/tables/application/service/srv_keys.sql
+definitions/tables/application/service/srv_condominiums.sql
+definitions/tables/application/service/srv_parameters.sql
+definitions/tables/application/service/srv_properties.sql
+definitions/tables/application/service/srv_categories.sql
+definitions/tables/application/service/srv_subcategories.sql
+definitions/tables/application/service/srv_accounts.sql
+definitions/tables/application/service/srv_dollar_values.sql
+definitions/tables/application/service/srv_euro_values.sql
+definitions/tables/application/service/srv_foment_unit_values.sql
+definitions/tables/application/service/srv_monthly_tax_unit_values.sql
+definitions/tables/application/organization/dat_communities.sql
+definitions/tables/application/organization/dat_parameters.sql
+definitions/tables/application/organization/dat_ownerships.sql
+definitions/tables/application/organization/dat_units.sql
+definitions/tables/application/configuration/dat_categories.sql
+definitions/tables/application/configuration/dat_subcategories.sql
+definitions/tables/application/configuration/dat_accounts.sql
+definitions/tables/application/transactions/dat_transactions.sql
+#definitions/tables/application/organization/units.sql
 
-/* maintenanceTables */
+/* maintenance */
 
-tables/maintenance/service/srv_types.sql
-tables/maintenance/documents/dat_types.sql
-tables/maintenance/documents/dat_files.sql
-tables/maintenance/documents/dat_normatives.sql
-tables/maintenance/documents/dat_titles.sql
-tables/maintenance/documents/dat_chapters.sql
-tables/maintenance/documents/dat_paragraphs.sql
-tables/maintenance/documents/dat_articles.sql
+definitions/tables/maintenance/service/srv_types.sql
+definitions/tables/maintenance/documents/dat_types.sql
+definitions/tables/maintenance/documents/dat_files.sql
+definitions/tables/maintenance/documents/dat_normatives.sql
+definitions/tables/maintenance/documents/dat_titles.sql
+definitions/tables/maintenance/documents/dat_chapters.sql
+definitions/tables/maintenance/documents/dat_paragraphs.sql
+definitions/tables/maintenance/documents/dat_articles.sql
 
-/* systemFunctions */
+/* FUNCTIONS */
 
-functions/system/access/system_access_get_sign_in.sql
-functions/system/access/system_access_put_password.sql
-functions/system/access/system_access_set_user.sql
-functions/system/snapshots/system_snapshots_exe_snapshot.sql
+/* environment */
 
-/* applicationFunctions */
+definitions/functions/environment/core/environment_core_get_current_month.sql
+definitions/functions/environment/core/environment_core_get_current_timestamp.sql
+definitions/functions/environment/core/environment_core_get_current_year.sql
+definitions/functions/environment/core/environment_core_get_date_dd.sql
+definitions/functions/environment/core/environment_core_get_date_mm.sql
+definitions/functions/environment/core/environment_core_get_date_yyyy.sql
+definitions/functions/environment/core/environment_core_get_date_yyyymm.sql
+definitions/functions/environment/core/environment_core_get_date_yyyymmdd.sql
+definitions/functions/environment/core/environment_core_get_dynamic_value.sql
+definitions/functions/environment/core/environment_core_get_function_result.sql
+definitions/functions/environment/core/environment_core_get_function_validation.sql
+definitions/functions/environment/core/environment_core_get_json_boolean.sql
+definitions/functions/environment/core/environment_core_get_json_json.sql
+definitions/functions/environment/core/environment_core_get_json_numeric.sql
+definitions/functions/environment/core/environment_core_get_json_text.sql
+definitions/functions/environment/core/environment_core_get_json_timestamp.sql
+definitions/functions/environment/core/environment_core_get_json_uuid.sql
+definitions/functions/environment/core/environment_core_get_last_sequence.sql
+definitions/functions/environment/core/environment_core_get_next_sequence.sql
+definitions/functions/environment/core/environment_core_get_previous_month.sql
+definitions/functions/environment/core/environment_core_get_previous_year.sql
+definitions/functions/environment/core/environment_core_get_random_numeric.sql
+definitions/functions/environment/core/environment_core_get_random_text.sql
+definitions/functions/environment/core/environment_core_get_result_failed.sql
+definitions/functions/environment/core/environment_core_get_result_success.sql
+definitions/functions/environment/core/environment_core_set_json_boolean.sql
+definitions/functions/environment/core/environment_core_set_json_empty.sql
+definitions/functions/environment/core/environment_core_set_json_json.sql
+definitions/functions/environment/core/environment_core_set_json_numeric.sql
+definitions/functions/environment/core/environment_core_set_json_text.sql
+definitions/functions/environment/core/environment_core_set_json_timestamp.sql
+definitions/functions/environment/core/environment_core_set_json_uuid.sql
+definitions/functions/environment/generic/environment_generic_exe_delete.sql
+definitions/functions/environment/generic/environment_generic_exe_insert.sql
+definitions/functions/environment/generic/environment_generic_exe_select.sql
+definitions/functions/environment/generic/environment_generic_exe_update.sql
+definitions/functions/environment/generic/environment_generic_get_status.sql
 
-functions/application/configurations/application_configurations_del_account.sql
-functions/application/configurations/application_configurations_del_category.sql
-functions/application/configurations/application_configurations_del_subcategory.sql
-functions/application/configurations/application_configurations_get_account.sql
-#functions/application/configurations/application_configurations_get_category.sql
-#functions/application/configurations/application_configurations_get_subcategory.sql
-functions/application/configurations/application_configurations_put_account.sql
-functions/application/configurations/application_configurations_put_category.sql
-functions/application/configurations/application_configurations_put_subcategory.sql
-functions/application/configurations/application_configurations_set_account.sql
-functions/application/configurations/application_configurations_set_category.sql
-functions/application/configurations/application_configurations_set_subcategory.sql
-functions/application/expenses/application_expenses_del_expense.sql
-functions/application/expenses/application_expenses_get_expense.sql
-functions/application/expenses/application_expenses_put_expense.sql
-functions/application/expenses/application_expenses_set_expense.sql
-functions/application/incomes/application_incomes_del_income.sql
-functions/application/incomes/application_incomes_get_income.sql
-functions/application/incomes/application_incomes_put_income.sql
-functions/application/incomes/application_incomes_set_income.sql
-functions/application/organization/application_organization_get_community.sql
-functions/application/organization/application_organization_set_community.sql
-functions/application/organization/application_organization_set_ownership.sql
-functions/application/organization/application_organization_set_ownerships.sql
-functions/application/summary/application_summary_get_administrator_summary.sql
-functions/application/summary/application_summary_get_community_summary.sql
-functions/application/summary/application_summary_get_owner_summary.sql
-functions/application/transactions/application_transactions_set_account.sql
-functions/application/transactions/application_transactions_set_transaction.sql
+/* system */
 
-/* maintenanceFunctions */
+definitions/functions/system/access/system_access_get_sign_in.sql
+definitions/functions/system/access/system_access_put_password.sql
+definitions/functions/system/access/system_access_set_user.sql
+definitions/functions/system/snapshots/system_snapshots_exe_snapshot.sql
 
-functions/maintenance/documents/maintenance_documents_set_file.sql
-functions/maintenance/documents/maintenance_documents_set_normative.sql
-functions/maintenance/indicators/maintenance_indicators_get_dollar.sql
-functions/maintenance/indicators/maintenance_indicators_get_euro.sql
-functions/maintenance/indicators/maintenance_indicators_get_foment_unit.sql
-functions/maintenance/indicators/maintenance_indicators_get_monthly_tax_unit.sql
+/* application */
 
-/* batchFunctions */
+definitions/functions/application/configurations/application_configurations_del_account.sql
+definitions/functions/application/configurations/application_configurations_del_category.sql
+definitions/functions/application/configurations/application_configurations_del_subcategory.sql
+definitions/functions/application/configurations/application_configurations_get_account.sql
+#definitions/functions/application/configurations/application_configurations_get_category.sql
+#definitions/functions/application/configurations/application_configurations_get_subcategory.sql
+definitions/functions/application/configurations/application_configurations_put_account.sql
+definitions/functions/application/configurations/application_configurations_put_category.sql
+definitions/functions/application/configurations/application_configurations_put_subcategory.sql
+definitions/functions/application/configurations/application_configurations_set_account.sql
+definitions/functions/application/configurations/application_configurations_set_category.sql
+definitions/functions/application/configurations/application_configurations_set_subcategory.sql
+definitions/functions/application/expenses/application_expenses_del_expense.sql
+definitions/functions/application/expenses/application_expenses_get_expense.sql
+definitions/functions/application/expenses/application_expenses_put_expense.sql
+definitions/functions/application/expenses/application_expenses_set_expense.sql
+definitions/functions/application/incomes/application_incomes_del_income.sql
+definitions/functions/application/incomes/application_incomes_get_income.sql
+definitions/functions/application/incomes/application_incomes_put_income.sql
+definitions/functions/application/incomes/application_incomes_set_income.sql
+definitions/functions/application/organization/application_organization_get_community.sql
+definitions/functions/application/organization/application_organization_set_community.sql
+definitions/functions/application/organization/application_organization_set_ownership.sql
+definitions/functions/application/organization/application_organization_set_ownerships.sql
+definitions/functions/application/summary/application_summary_get_administrator_summary.sql
+definitions/functions/application/summary/application_summary_get_community_summary.sql
+definitions/functions/application/summary/application_summary_get_owner_summary.sql
+definitions/functions/application/transactions/application_transactions_set_account.sql
+definitions/functions/application/transactions/application_transactions_set_transaction.sql
 
-functions/batch/indicators/batch_indicators_set_dollar.sql
-functions/batch/indicators/batch_indicators_set_euro.sql
-functions/batch/indicators/batch_indicators_set_foment_unit.sql
-functions/batch/indicators/batch_indicators_set_monthly_tax_unit.sql
+/* maintenance */
 
-/* systemTablesSetup */
+definitions/functions/maintenance/documents/maintenance_documents_set_file.sql
+definitions/functions/maintenance/documents/maintenance_documents_set_normative.sql
+definitions/functions/maintenance/indicators/maintenance_indicators_get_dollar.sql
+definitions/functions/maintenance/indicators/maintenance_indicators_get_euro.sql
+definitions/functions/maintenance/indicators/maintenance_indicators_get_foment_unit.sql
+definitions/functions/maintenance/indicators/maintenance_indicators_get_monthly_tax_unit.sql
 
-tablesSetup/system/exceptions/log_exceptions.sql
-tablesSetup/system/service/srv_persons.sql
-tablesSetup/system/service/srv_profiles.sql
-tablesSetup/system/service/srv_positions.sql
+/* batch */
 
-/* applicationTablesSetup */
+definitions/functions/batch/indicators/batch_indicators_set_dollar.sql
+definitions/functions/batch/indicators/batch_indicators_set_euro.sql
+definitions/functions/batch/indicators/batch_indicators_set_foment_unit.sql
+definitions/functions/batch/indicators/batch_indicators_set_monthly_tax_unit.sql
 
-tablesSetup/application/service/srv_condominiums.sql
-tablesSetup/application/service/srv_parameters.sql
-tablesSetup/application/service/srv_properties.sql
-tablesSetup/application/service/srv_days.sql
-tablesSetup/application/service/srv_month.sql
-tablesSetup/application/service/srv_regions.sql
-tablesSetup/application/service/srv_provinces.sql
-tablesSetup/application/service/srv_communes.sql
-tablesSetup/application/transactions/accounts.sql
-tablesSetup/application/transactions/srv_categories.sql
-tablesSetup/application/transactions/srv_subcategories.sql
+/* * * * * * * * */
+/* MANIPULATIONS */
+/* * * * * * * * */
 
-/* systemFunctionsSetup */
+/* TABLES SETUP */
 
-functionsSetup/system/access/system_access_set_user.sql
-functionsSetup/system/access/system_access_put_password.sql
+/* system */
 
-/* applicationFunctionsSetup */
+manipulations/tables/system/exceptions/log_exceptions.sql
+manipulations/tables/system/service/srv_persons.sql
+manipulations/tables/system/service/srv_profiles.sql
+manipulations/tables/system/service/srv_positions.sql
 
-functionsSetup/application/organization/application_organization_set_community.sql
-functionsSetup/application/organization/application_organization_set_ownerships.sql
-functionsSetup/application/configurations/application_configurations_set_account.sql
+/* application */
 
-/* maintenanceFunctionsSetup */
+manipulations/tables/application/service/srv_condominiums.sql
+manipulations/tables/application/service/srv_parameters.sql
+manipulations/tables/application/service/srv_properties.sql
+manipulations/tables/application/service/srv_days.sql
+manipulations/tables/application/service/srv_month.sql
+manipulations/tables/application/service/srv_regions.sql
+manipulations/tables/application/service/srv_provinces.sql
+manipulations/tables/application/service/srv_communes.sql
+manipulations/tables/application/transactions/accounts.sql
+manipulations/tables/application/transactions/srv_categories.sql
+manipulations/tables/application/transactions/srv_subcategories.sql
 
-functionsSetup/maintenance/documents/maintenance_documents_set_file.sql
-functionsSetup/maintenance/documents/maintenance_documents_set_normative_1.sql
-functionsSetup/maintenance/documents/maintenance_documents_set_normative_2.sql
-functionsSetup/maintenance/documents/maintenance_documents_set_normative_3.sql
+/* FUNCTIONS SETUP */
+
+/* system */
+
+manipulations/functions/system/access/system_access_set_user.sql
+manipulations/functions/system/access/system_access_put_password.sql
+
+/* application */
+
+manipulations/functions/application/organization/application_organization_set_community.sql
+manipulations/functions/application/organization/application_organization_set_ownerships.sql
+manipulations/functions/application/configurations/application_configurations_set_account.sql
+
+/* maintenance */
+
+manipulations/functions/maintenance/documents/maintenance_documents_set_file.sql
+manipulations/functions/maintenance/documents/maintenance_documents_set_normative_1.sql
+manipulations/functions/maintenance/documents/maintenance_documents_set_normative_2.sql
+manipulations/functions/maintenance/documents/maintenance_documents_set_normative_3.sql
